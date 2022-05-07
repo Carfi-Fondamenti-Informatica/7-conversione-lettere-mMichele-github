@@ -6,13 +6,12 @@ int main() {
     char a;
     char letteraCambiata;
 
-    cout << "inserire una lettera: ";
     cin >> a;
     bool lettera = verificatore(a);
     if(lettera==true)
     {
         char letteraCambiata = convertitore(a);
-        cout << "Lettera cambiata: " << letteraCambiata;
+        cout << letteraCambiata;
     }
     else {
         cout << "errore" << endl;
